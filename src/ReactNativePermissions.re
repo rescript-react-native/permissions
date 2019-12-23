@@ -44,4 +44,7 @@ module Permissions = {
 
   [@bs.module "react-native-permissions"] [@bs.scope "default"]
   external request: Constants.t => Js.Promise.t(Results.t) = "request";
+
+  [@bs.module "react-native-permissions"] [@bs.scope "default"]
+  external check: Constants.t => Js.Promise.t(Results.t) = "check";
 };
