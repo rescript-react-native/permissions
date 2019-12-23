@@ -6,7 +6,7 @@
 
 [ReasonML](https://reasonml.github.io) /
 [BuckleScript](https://bucklescript.github.io) bindings for
-[`@react-native-community/something`](https://github.com/react-native-community/something).
+[`react-native-permissions`](https://github.com/react-native-community/react-native-permissions).
 
 Exposed as `ReactNativePermissions` module.
 
