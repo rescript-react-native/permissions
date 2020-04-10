@@ -1,21 +1,10 @@
 'use strict';
 
 
-var IOS = { };
-
 var Android = { };
 
-var Constants = {
-  IOS: IOS,
-  Android: Android
-};
+var Ios = { };
 
-var Results = { };
-
-var $$Permissions = {
-  Constants: Constants,
-  Results: Results
-};
-
-exports.$$Permissions = $$Permissions;
+exports.Android = Android;
+exports.Ios = Ios;
 /* No side effect */

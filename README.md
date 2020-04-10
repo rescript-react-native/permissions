@@ -46,21 +46,23 @@ yarn add @reason-react-native/permissions
 
 ```reason
 open ReactNative;
-open ReactNativePermissions;
 
 let requestCamera = () => {
-  Permissions.request(
-    switch (Platform.os) {
-    | os when os === "ios" => Permissions.Constants.IOS.camera
-    | _ => Permissions.Constants.Android.camera
-    },
-  )
-  |> Js.Promise.then_(permissionStatus =>
-       switch (permissionStatus) {
-       | status when status === Results.granted => Js.Promise.resolve()
-       | _ => Js.Promise.reject(Js.Exn.raiseError("permission error"))
-       }
-     );
+  ReactNativePermissions.(
+    request(
+      switch (Platform.os) {
+      | os when os === "ios" => Ios.camera
+      | _ => Android.camera
+      },
+    )
+    |> Js.Promise.then_(permissionStatus =>
+        switch (permissionStatus) {
+        | status when status === granted => Js.Promise.resolve()
+        | _ => Js.Promise.reject(Js.Exn.raiseError("permission error"))
+        }
+      )
+    )
+  );
 };
 ```
 
