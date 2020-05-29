@@ -159,6 +159,11 @@ type requestRationale = {
 external request: permission => Js.Promise.t(permissionStatus) = "request";
 
 [@bs.module "react-native-permissions"]
+external requestMultiple:
+  array(permission) => Js.Promise.t(Js.Dict.t(permissionStatus)) =
+  "requestMultiple";
+
+[@bs.module "react-native-permissions"]
 external requestWithRational:
   (permission, requestRationale) => Js.Promise.t(permissionStatus) =
   "request";
