@@ -1,9 +1,9 @@
 'use strict';
 
 
-var Android = { };
+var Android = {};
 
-var Ios = { };
+var Ios = {};
 
 exports.Android = Android;
 exports.Ios = Ios;
