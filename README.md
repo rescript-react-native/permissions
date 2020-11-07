@@ -15,7 +15,7 @@ Exposed as `ReactNativePermissions` module.
 ## Installation
 
 When
-[`react-native-permissions`](`https://github.com/react-native-community/react-native-permissions`)
+[`react-native-permissions`](https://github.com/react-native-community/react-native-permissions)
 is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
