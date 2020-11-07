@@ -147,6 +147,11 @@ external blocked: permissionStatus = "BLOCKED";
 [@bs.module "react-native-permissions"]
 external check: permission => Js.Promise.t(permissionStatus) = "check";
 
+[@bs.module "react-native-permissions"]
+external checkMultiple:
+  array(permission) => Js.Promise.t(Js.Dict.t(permissionStatus)) =
+  "checkMultiple";
+
 type requestRationale = {
   title: string,
   message: string,
