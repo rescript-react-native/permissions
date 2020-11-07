@@ -1,11 +1,11 @@
 {
   "name": "@reason-react-native/permissions",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "react-native-permissions": "2.0.3"
+    "react-native-permissions": "2.2.0"
   },
   "repository": "https://github.com/reason-react-native/permissions.git",
   "license": "MIT",
