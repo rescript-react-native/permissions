@@ -93,6 +93,8 @@ module Android = {
 
 module Ios = {
   [@bs.module "react-native-permissions"] [@bs.scope ("PERMISSIONS", "IOS")]
+  external app_tracking_transparency: permission = "APP_TRACKING_TRANSPARENCY";
+  [@bs.module "react-native-permissions"] [@bs.scope ("PERMISSIONS", "IOS")]
   external bluetooth_peripheral: permission = "BLUETOOTH_PERIPHERAL";
   [@bs.module "react-native-permissions"] [@bs.scope ("PERMISSIONS", "IOS")]
   external calendars: permission = "CALENDARS";
