@@ -1,4 +1,4 @@
-# Changelog of `@reason-react-native/permissions`
+# Changelog of `@rescript-react-native/permissions`
 
 ## 2.2.1 - 2020-11-17
 
