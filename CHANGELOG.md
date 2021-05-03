@@ -1,5 +1,9 @@
 # Changelog of `@rescript-react-native/permissions`
 
+## 2.2.2 - 2021-05-03
+
+ReScript
+
 ## 2.2.1 - 2020-11-17
 
 Fix npm description

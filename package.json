@@ -1,12 +1,12 @@
 {
   "name": "@rescript-react-native/permissions",
   "description": "ReScript bindings for react-native-permissions.",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "react-native-permissions": "2.2.0"
+    "react-native-permissions": "^2.2.0"
   },
   "repository": "https://github.com/rescript-react-native/permissions.git",
   "license": "MIT",
